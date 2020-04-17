@@ -41,9 +41,8 @@ use Classes\Usuario;
                             <td><?php echo $usuario['email'];?></td>
                             <td><?php echo $usuario['login'];?></td>
                             <td>
-                                <a href="editar.php?codigo=<?php echo $usuario['codigo'];?>&editar"id="editar">Editar</a> |
-                                <a href="eliminar.php?codigo='<?php echo $usuario['codigo'];?>&excluir"id="excluir">Excluir</a>
-
+                                <a href="editar.php?codigo=<?php echo $usuario['codigo'];?>"id="editar">Editar</a> |
+                                <a href="eliminar.php?codigo=<?php echo $usuario['codigo'];?>"id="excluir">Excluir</a>
                             </td>
                         </tr>
 
